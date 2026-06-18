@@ -1,0 +1,4 @@
+c=10+2j
+print(c)
+print(c.real)
+print(c.imag)
