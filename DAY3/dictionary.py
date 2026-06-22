@@ -8,5 +8,6 @@ student.setdefault('raam',23)
 print(student)
 student['raam']=24
 print(student)
+print(student['chaitu'])
 student.clear()
 print(student)
