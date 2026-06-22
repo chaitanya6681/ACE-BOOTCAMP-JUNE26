@@ -9,6 +9,9 @@ class student:
     @classmethod
     def hike(cls):
         return "I am a class method..."
+    @staticmethod
+    def result(fname,lname):
+        return f"{fname} {lname}"
     def __repr__(self):
         return f"{self.sname},{self.sbranch},{self.rno}"
     def __str__(self):
@@ -17,4 +20,6 @@ s1=student("chaitanya","CSM",41)
 s3=student("chaitanya","CSM",41)
 s2=student("sai","CSM",64)
 print(s1.hike())
+s1=student.result("chaitanya","krishna")
+print(s1)
 
