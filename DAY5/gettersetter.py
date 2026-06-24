@@ -20,5 +20,6 @@ s2=student("sai","CSM",64)
 print(s1.from_branch)
 s1.from_branch="CSE"
 print(s1.sbranch)
+#del s1.from_branch
 s1.from_branch=None
-print(s1.sbranch)
+print(s1.sbranch)   
